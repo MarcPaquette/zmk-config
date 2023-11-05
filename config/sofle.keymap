@@ -33,7 +33,7 @@
         lower_layer {
 // TODO: Some binds are waiting for shifted keycode support.
 // ------------------------------------------------------------------------------------------------------------
-// | BTCLR | BT1 | BT2 | BT3  |  BT4 |  BT5 |                   |      |       |       |  [   |   ]   |       |
+// |        | BT1 | BT2 | BT3  |  BT4 |  BT5 |                   |      |       |       |  [   |   ]   |       |
 // |       |     |     |      |      |      |                   |      |       |       |      |       |       |
 // |       |     | PRE |PL/PAU| NEXT |      |                   | LEFT | DOWN  |  UP   | RIGHT|       |       |
 // |       |     |     |      |      |      | TRANS  |  | TRANS |      |       |       |      |       |       |
@@ -57,7 +57,7 @@
 // |     |      |      |       |       |      |      |  |      |      |      |       |      |       |       |
 //              |      |       |       |      |      |  |      |      |      |       |      |
             bindings = <
-&BT_CLR   &kp F1    &kp F2    &kp F3      &kp F4    &kp F5                    &kp F6    &kp F7   &kp F8          &kp F9    &kp F10   &kp F11
+&bt BT_CLR   &kp F1    &kp F2    &kp F3      &kp F4    &kp F5                    &kp F6    &kp F7   &kp F8          &kp F9    &kp F10   &kp F11
 &none     &none     &none     &none       &none      &none                     &none     &none    &none           &none     &none     &kp F12
 &none     &none     &none     &none       &none      &none                     &none     &none    &none           &none     &none     &none
 &trans     &none     &none     &none       &none      &none   &trans     &trans &none     &none    &none           &none     &none     &none
